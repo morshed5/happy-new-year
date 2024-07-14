@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Shared Style */
+body{
+    font-family: "Inter", sans-serif;
+}
+.text-align{
+    text-align: center;
+}
+section{
+    margin-top: 120px;
+}
+/* Banner Image design */
+.banner-image{
+    background-image: url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 1320px;
+    margin: 50px auto;       
+    background-color: rgba(0,0,0,0.4);
+    background-blend-mode: overlay;
+}
+.new-year{
+    font-size: 33px;
+    margin-bottom:25px;
+    color: #fff;
+    font-family: "Merriweather", serif;
+
+}
+.celebration{
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 80px;
+    color:#fff;
+    font-family: "Merriweather", serif;
+}
+.banner-text{
+    padding: 200px;
+}
+/* Discount section styles */
+.discount-container{
+    margin-bottom: 120px;
+}
+.discount{
+    font-size: 75px;
+    color:#ff0000;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+}
+.catagory p{
+    text-align: center;
+    color: #ff0000;
+    font-family: inter;
+    font-size: 24px;
+    font-weight: 450;
+    margin-top: 48px;
+}
+.catagory h3{
+    font-family: inter;
+    font-size:48px;
+    text-align: center;
+    margin-top: 16px;
+}
+.discount-banner{
+    height: 500px;
+    width: 803px;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+/* End of Discount offer section design */
+
+/* Start Party Section Design */
+.party-container{
+    background-image: url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.3);
+    background-blend-mode: overlay;
+    height: 600px;
+    width: 1320px;
+    margin: 0 auto;
+}
+.party-container h3{
+    color: #fff;
+    padding: 126px 0 0 126px;
+    font-family: "Merriweather", serif;
+    font-size: 64px;
+    line-height: 90px;
+}
+.party-container p{
+    color:#fff;
+    font-size: 18px;
+    padding-left: 126px;
+    width:700px;
+    line-height: 28px;
+    margin-bottom: 58px;
+}
+.join{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 158px;
+    color: #fff;
+    background-color: #ff0000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-style: none;
+    text-transform: uppercase;
+}
+/* End of party container Section design */
+
+.joining-container{
+    margin-top:120px!important;
+    margin-bottom: 120px !important;
+    width: 1320px;
+    height: 420px;
+    margin: 0 auto;
+    background-image: linear-gradient(#ff00001f, #ff000000);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.joining-title{
+    padding-top: 100px;
+}
+.joining-container h4{
+    font-size: 32px;
+    font-weight: 650;
+    text-align: center;
+    line-height: 56px;
+}
+.joining-container span{
+    color: #ff0000;
+}
+.joining-container button{
+    margin-top: 40px;
+    margin-left: 600px;
+}
+
+/* End of Hotel Joingin Section Desing */
+
+
+/* Started Offer section desing here */
+.offer-container{
+    width: 1320px;
+    height: 463px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 130px;
+}
+.best-offer1{
+    font-size: 24px;
+    font-weight: 500;
+    color: #ff0000;
+    margin-bottom: 25px;
+}
+.best-offer h3{
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    margin-bottom: 18px;
+}
+.best-offer p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.new-year1 h2{
+    font-size: 48px;
+    color: #ff0000;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+.new-year1 p{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+/* End of offer design section */
+.holyday-container{
+    width: 1320px;
+    height: 987px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 130px;
+}
+.holiday-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.holiday-content h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.holiday-content h2{
+    font-size: 72px;
+    font-family: "Merriweather", serif;
+    margin-bottom: 28px;
+}
+.holiday-content span{
+    color: #ff0000;
+}
+.holiday-content p{
+    width: 950px;
+    font-size: 20px;
+    font-weight: 400;
+    color:#070211;
+    text-align: center;
+    line-height: 32px;
+    margin-bottom: 64px;
+}
+.solid-color{
+    width: 1320px;
+    height: 229px;
+    border-radius: 10px;
+    background-color: #ff0000;
+    position: absolute;
+    top:77%;
+}
+.giftbox{
+    position: absolute;
+    z-index: 1;
+} 
+.discount{
+    position: absolute;
+    z-index: 1;
+    top: 40%;
+    left: 65%;
+}
+/* End of Holidy Section Area Design */
+
+
+/* Star Here Portolio Desing */
+.portfolio-container{
+    width: 1320px;
+    height: 1163px;
+    margin: 0 auto;
+}
+.portfolio-content h4{
+    color: #ff0000;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.portfolio-content h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.portfolio-content p{
+    width: 896px;
+    color: #070211;
+    margin-bottom: 25px;
+}
+.portofolio-images img{
+    padding: 5px;
+}
+/* End of Portofolio Section Desing */
+
+.subscribe-container{
+    width: 1320px;
+    height: 516px;
+    margin: 0 auto;
+    background-color: #ff00000d;
+    padding-top: 50px;
+    border-radius: 15px;
+    margin-bottom: 130px;
+}
+.subscribe-content img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.subscribe-content h2{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 48px;
+}
+.subscribe-content p{
+    text-align: center;
+    color: #070211;
+    margin-top: 22px;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content:center ;
+    padding: 25px;
+    border-radius: 5px;
+  }
+  
+  input[type="email"] {
+    padding: 10px;
+    border-radius: 15px;
+    border-style: none;
+    font-size: 16px;
+    width: 250px;
+    padding: 15px;
+  }
+  
+  button{
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 15px 0px 0 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #ff0000;
+  }
+
+  /* End of Subscribe Section Design */
+
+
+.footer-container{
+    width: 100%;
+    height: 610px;
+    margin: 0 auto;
+    background-color: black;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    width: 1600px;
+    margin: 0 auto;
+}
+.footer-content-left{
+    color: #fff;
+    width: 375px;
+    font-size: 24px;
+    margin-top: 120px; 
+    line-height: 40px;
+}
+.footer-content-right{
+    color:#fff;
+    font-size: 24px;
+    margin-top: 120px; 
+    line-height: 40px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    gap: 25px;
+}
+.footer-bottom-content p{
+    color: #fff;
+    display: inline-block;
+    margin-top: 120px;
+    font-size: 22px;
+}
+
+/* End of Footer Area Design */
